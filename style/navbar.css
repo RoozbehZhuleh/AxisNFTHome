@@ -1,0 +1,27 @@
+#navbar {
+  max-height: 20vh;
+  border: 1px solid red;
+}
+
+.navbar__logo {
+}
+
+.navbar__wrapper {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__menu--item {
+  color: #fff;
+  cursor: pointer;
+  margin-left: 1rem;
+}
