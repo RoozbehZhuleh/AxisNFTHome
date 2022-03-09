@@ -1,9 +1,10 @@
 #navbar {
-  max-height: 20vh;
+  min-height: 10vh;
   border: 1px solid red;
 }
 
-.navbar__logo {
+.navbar__logo img {
+  max-height: 8rem;
 }
 
 .navbar__wrapper {
@@ -21,7 +22,28 @@
 }
 
 .navbar__menu--item {
-  color: #fff;
+  color: var(--light-color);
   cursor: pointer;
   margin-left: 1rem;
+  margin-right: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar__menu--item i {
+  margin-left: 0.8rem;
+  font-size: 1.5rem;
+}
+
+.navbar__search {
+  color: var(--light-color);
+  margin-left: 2rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.navbar__wallet {
+  display: flex;
+  flex-direction: row;
 }

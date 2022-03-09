@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NFT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style/layout.css">
     <link rel="stylesheet" href="./style/navbar.css">
 </head>
@@ -12,17 +13,21 @@
     <nav id="navbar" role="navigation">
         <div class="container">
             <div class="navbar__wrapper">
-                <div class="navbar__logo"></div>
-                <div class="navbar__menu">
-                    <div class="navbar__home navbar__menu--item"><p>Home</p></div>
-                    <div class="navbar__explore navbar__menu--item"><p>Explore</p></div>
-                    <div class="navbar__activity navbar__menu--item"><p>Activity</p></div>
-                    <div class="navbar__community navbar__menu--item"><p>Community</p></div>
-                    <div class="navbar__pages navbar__menu--item"><p>Pages</p></div>
-                    <div class="navbar__contact navbar__menu--item"><p>Contact</p></div>
+                <div class="navbar__logo">
+                    <img src="./assets/axies-images/01_header/logo_dark.png" alt="">
                 </div>
-                <div class="navbar__search"></div>
-                <div class="navbar__wallet"></div>
+                <div class="navbar__menu">
+                    <div class="navbar__home navbar__menu--item"><p>Home</p><i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="navbar__explore navbar__menu--item"><p>Explore</p><i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="navbar__activity navbar__menu--item"><p>Activity</p><i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="navbar__community navbar__menu--item"><p>Community</p><i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="navbar__pages navbar__menu--item"><p>Pages</p><i class="fa-solid fa-chevron-down"></i></div>
+                    <div class="navbar__contact navbar__menu--item"><p>Contact</p><i class="fa-solid fa-chevron-down"></i></div>
+                </div>
+                <div class="navbar__search"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="navbar__wallet">
+                    <button class="btn btn__primary"><i class="fa-solid fa-wallet"></i><p>Wallet Connect</p></button>
+                </div>
                 <div class="navbar__dark"></div>
             </div>
         </div>
