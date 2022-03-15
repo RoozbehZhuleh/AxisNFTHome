@@ -27,7 +27,7 @@
   margin-inline-start: 1rem;
   margin-inline-end: 2rem;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
