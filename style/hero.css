@@ -43,7 +43,7 @@
 }
 
 .hero__blob {
-  min-height: 52rem;
+  min-height: 62rem;
   position: absolute;
   z-index: -10;
   top: 18rem;
@@ -53,9 +53,9 @@
 .hero__rabbit {
   position: relative;
   z-index: 1;
-  animation: rabbit infinite 50s linear;
+  animation: rabbit infinite 2s linear;
   top: 10rem;
-  left: 35rem;
+  left: 45rem;
 }
 
 .hero__plus--1 {
@@ -75,21 +75,45 @@
   left: 2rem;
 }
 
+.hero__plus--3 {
+  position: relative;
+  transform: rotate(45deg);
+  transition: transform 0.3;
+  animation: plus--2 infinite 30s ease-in-out backwards;
+  left: -40rem;
+  min-height: 5rem;
+}
+
+.hero__plus--4 {
+  position: relative;
+  transform: rotate(45deg);
+  transition: transform 0.3;
+  animation: plus--2 infinite 10s linear backwards;
+  left: -8rem;
+  top: -20rem;
+  min-height: 12rem;
+}
+
 .hero__planet {
   position: relative;
   top: 22rem;
 }
 
 .hero__ellipse--1 {
+  z-index: -1;
   position: relative;
   top: 17rem;
-  min-height: 4rem;
+  opacity: 0.5;
+  min-height: 6rem;
+  animation: ellipse--1 infinite 300s linear;
 }
 
 .hero__ellipse--2 {
   position: relative;
   left: 6rem;
   top: -10rem;
+  animation: ellipse--2 infinite 200s ease-in-out;
+  z-index: -1;
 }
 
 .hero__wrapper--2 {

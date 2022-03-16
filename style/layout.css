@@ -81,10 +81,10 @@ a {
 
 @keyframes rabbit {
   0% {
-    transform: translateY(0);
+    transform: translateY(0%);
   }
   50% {
-    transform: translateY(50%);
+    transform: translateY(30%);
   }
 }
 
@@ -97,5 +97,29 @@ a {
 @keyframes plus--2 {
   100% {
     transform: rotate(-360deg);
+  }
+}
+
+@keyframes ellipse--1 {
+  10% {
+    transform: translateX(30rem) translateY(-60rem);
+  }
+  25% {
+    transform: translateX(-80rem) translateY(-30rem);
+  }
+  50% {
+    transform: translateX(-60rem) translateY(-50rem);
+  }
+}
+
+@keyframes ellipse--2 {
+  10% {
+    transform: translateX(-30rem) translateY(-10rem);
+  }
+  25% {
+    transform: translateX(-60rem) translateY(-40rem);
+  }
+  50% {
+    transform: translateX(20rem) translateY(40rem);
   }
 }
