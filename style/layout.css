@@ -8,10 +8,12 @@
 }
 
 :root {
-  --primary-color: #0e0116;
+  --primary-color: #170322;
   --dark-color: #07050e;
-  --accent-color: rgb(149, 80, 229);
+  --accent-color: rgb(110, 64, 219);
+  --navbar-btn-color: rgba(52, 52, 68);
   --light-color: #f3f3f3;
+  --font-accent-color: #808080;
 }
 
 html {
@@ -22,7 +24,7 @@ html {
 
 body {
   font-size: 1.5rem;
-  background: linear-gradient(141deg, rgb(18, 11, 37) 0%, #0e0116 75%);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, #170322 75%);
 }
 
 button {
@@ -36,6 +38,8 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--light-color);
+  cursor: pointer;
 }
 
 .container {
@@ -48,8 +52,10 @@ a {
 
 .btn {
   font-family: inherit;
-  padding: 1rem 1.5rem;
-  border-radius: 0.5rem;
+  text-overflow: none;
+  font-size: 1.8rem;
+  padding: 1rem 2.5rem;
+  border-radius: 2rem;
   outline: 0;
   border: none;
   box-shadow: none;
@@ -60,11 +66,36 @@ a {
 .btn__primary {
   background-color: var(--primary-color);
   color: var(--light-color);
+  box-shadow: inset 0 0 0 0.2rem var(--accent-color);
 }
 
-.btn__primary:hover {
-  background: transparent;
+.btn:hover {
+  background-color: var(--accent-color);
   color: var(--light-color);
+}
 
-  box-shadow: inset 0 0 0 0.1rem var(--light-color);
+.secondary-text {
+  color: var(--font-accent-color);
+  font-family: inherit;
+}
+
+@keyframes rabbit {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(50%);
+  }
+}
+
+@keyframes plus--1 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes plus--2 {
+  100% {
+    transform: rotate(-360deg);
+  }
 }

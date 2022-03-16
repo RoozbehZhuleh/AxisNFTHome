@@ -1,6 +1,6 @@
 #navbar {
   min-height: 10vh;
-  border: 1px solid red;
+  position: sticky;
 }
 
 .navbar__logo img {
@@ -11,13 +11,14 @@
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
 }
 
 .navbar__menu {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
 
@@ -27,7 +28,7 @@
   margin-inline-start: 1rem;
   margin-inline-end: 2rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -41,9 +42,30 @@
   margin-inline-start: 2rem;
   cursor: pointer;
   font-size: 2rem;
+  margin-inline-end: 3rem;
 }
 
 .navbar__wallet {
   display: flex;
   flex-direction: row;
+}
+
+.btn__walelt {
+  display: inline-block;
+}
+
+.navbar--modes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar--modes > * {
+  padding: 1rem;
+  margin-inline-start: 0.5rem;
+  height: 4rem;
+  background-color: var(--navbar-btn-color);
+  cursor: pointer;
+  border-radius: 20%;
 }

@@ -1,0 +1,103 @@
+#live-auctions {
+  min-height: 30vh;
+}
+
+.auctions__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: rgb(49, 37, 71);
+}
+
+.auctions__title {
+  display: flex;
+  flex-direction: row;
+}
+
+.auctions__title h2 {
+  color: #fff;
+  margin-inline-end: 100%;
+}
+
+.auctions__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.auctions__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+  color: var(--light-color);
+  background-color: rgb(76, 70, 87);
+  padding: 1.5rem;
+  border-radius: 2rem;
+}
+
+.auctions__creator img {
+  border-radius: 2rem;
+  max-width: 5rem;
+}
+
+.auctions__creator {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.auctions__creator > * {
+  margin: 1rem;
+}
+
+.item__wrapper--1 {
+  background-image: url(../assets/axies-images/03_Live\ Auctions/card-item8.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 20rem;
+  min-height: 20rem;
+  border-radius: 2rem;
+}
+
+.item__wrapper--2 {
+  background-image: url(../assets/axies-images/03_Live\ Auctions/card-item8.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 20rem;
+  min-height: 20rem;
+  border-radius: 2rem;
+}
+
+.item__wrapper--3 {
+  background-image: url(../assets/axies-images/03_Live\ Auctions/card-item8.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 20rem;
+  min-height: 20rem;
+  border-radius: 2rem;
+}
+
+.item__wrapper--4 {
+  background-image: url(../assets/axies-images/03_Live\ Auctions/card-item8.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 20rem;
+  min-height: 20rem;
+  border-radius: 2rem;
+}
+
+.line {
+  min-width: 96%;
+  min-height: 2%;
+  border: 1px solid rgb(45, 43, 48);
+  margin: 1rem;
+}
