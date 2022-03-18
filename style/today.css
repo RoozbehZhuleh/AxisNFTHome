@@ -1,0 +1,249 @@
+.today__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.today__title {
+  color: #fff;
+}
+
+.today__sort {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.category,
+.price,
+.sale,
+.blockchain,
+.sort-by {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.category i,
+.price i,
+.sale i,
+.blockchain i,
+.sort-by i {
+  margin: 0.5rem;
+}
+
+.today__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(76, 70, 87);
+  padding: 1rem;
+  border-radius: 2rem;
+  margin: 2rem 1rem;
+}
+
+.today__item h5 {
+  color: #fff;
+  margin: 0.5rem 0;
+}
+
+.today__creator {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.today__img img {
+  max-width: 7rem;
+  max-height: 7rem;
+  border-radius: 2rem;
+}
+
+.today__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+  margin: 0 1rem;
+}
+
+.today__text p {
+  color: rgb(99, 99, 99);
+  margin: 0.5rem 0;
+}
+
+.today__row--1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.today__row--2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.today__wrapper--1 {
+  background-image: url(../assets/axies-images/03_Live\ Auctions/card-item8.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 22rem;
+  min-height: 22rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-block-end: 1rem;
+}
+
+.today__wrapper--2 {
+  background-image: url(../assets/axies-images/05_Todays\ Picks/card-item-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 22rem;
+  min-height: 22rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-block-end: 1rem;
+}
+
+.today__wrapper--3 {
+  background-image: url(../assets/axies-images/05_Todays\ Picks/card-item-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 22rem;
+  min-height: 22rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-block-end: 1rem;
+}
+
+.today__wrapper--4 {
+  background-image: url(../assets/axies-images/05_Todays\ Picks/card-item-4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 22rem;
+  min-height: 22rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-block-end: 1rem;
+}
+
+.today__wrapper--5 {
+  background-image: url(../assets/axies-images/05_Todays\ Picks/card-item-7.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 22rem;
+  min-height: 22rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-block-end: 1rem;
+}
+
+.today__wrapper--6 {
+  background-image: url(../assets/axies-images/05_Todays\ Picks/card-item-9.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 22rem;
+  min-height: 22rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-block-end: 1rem;
+}
+
+.today__wrapper--7 {
+  background-image: url(../assets/axies-images/05_Todays\ Picks/image-box-11.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 22rem;
+  min-height: 22rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-block-end: 1rem;
+}
+
+.today__wrapper--8 {
+  background-image: url(../assets/axies-images/05_Todays\ Picks/card-item-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 22rem;
+  min-height: 22rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-block-end: 1rem;
+}
+
+.today__bid {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.today__price {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem 0 0;
+}
+
+.today__price p {
+  font-size: 1.5rem;
+  color: rgb(99, 99, 99);
+}
+
+.today__price h4 {
+  color: #fff;
+  margin: 1rem 0 0 0;
+}
+
+.history {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  color: #fff;
+}
+
+.history p {
+  margin: 0 0 0 0.5rem;
+  font-size: 1.2rem;
+}

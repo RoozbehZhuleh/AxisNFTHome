@@ -1,0 +1,29 @@
+.footer__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10rem 0;
+}
+
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: space-around;
+  color: rgb(99, 99, 99);
+  max-width: 20rem;
+  margin: 2rem;
+}
+
+.footer__logo img {
+  max-width: 12rem;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  margin: 0 5rem;
+}
