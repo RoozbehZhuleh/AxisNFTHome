@@ -14,6 +14,8 @@
   --navbar-btn-color: rgba(52, 52, 68);
   --light-color: #f3f3f3;
   --font-accent-color: #808080;
+  --card-background-color: rgb(76, 70, 87);
+  --secondary-background-color: rgb(49, 37, 71);
 }
 
 html {
@@ -53,8 +55,8 @@ a {
 .btn {
   font-family: inherit;
   text-overflow: none;
-  font-size: 1.8rem;
-  padding: 1rem 2.5rem;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
   border-radius: 2rem;
   outline: 0;
   border: none;
@@ -66,7 +68,7 @@ a {
 .btn__primary {
   background-color: var(--primary-color);
   color: var(--light-color);
-  box-shadow: inset 0 0 0 0.2rem var(--accent-color);
+  box-shadow: inset 0 0 0 0.1rem var(--accent-color);
 }
 
 .btn:hover {
@@ -89,14 +91,26 @@ a {
 }
 
 @keyframes plus--1 {
-  100% {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
     transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
 
 @keyframes plus--2 {
-  100% {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
     transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
 
@@ -132,6 +146,46 @@ a {
   }
 }
 
+@keyframes ellipse--3 {
+  10% {
+    transform: translateX(40rem) translateY(-50rem);
+    opacity: 0.8;
+  }
+  25% {
+    transform: translateX(-20rem) translateY(-10rem);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateX(-60rem) translateY(-50rem);
+    opacity: 0.3;
+  }
+
+  75% {
+    transform: translateX(10rem) translateY(-10rem);
+    opacity: 1;
+  }
+}
+
+@keyframes ellipse--4 {
+  10% {
+    transform: translateX(30rem) translateY(0rem);
+    opacity: 0.5;
+  }
+  25% {
+    transform: translateX(-80rem) translateY(-30rem);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateX(-60rem) translateY(-50rem);
+    opacity: 0.4;
+  }
+
+  75% {
+    transform: translateX(-10rem) translateY(-10rem);
+    opacity: 1;
+  }
+}
+
 @keyframes planet {
   0% {
     transform: translateX(0);
@@ -153,5 +207,17 @@ a {
   }
   100% {
     min-height: 58rem;
+  }
+}
+
+@keyframes star {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.3;
   }
 }

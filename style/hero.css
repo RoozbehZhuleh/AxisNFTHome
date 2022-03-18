@@ -22,7 +22,7 @@
 .word-monster {
   background-image: linear-gradient(
     45deg,
-    rgb(167, 109, 233),
+    var(--accent-color),
     var(--primary-color)
   );
   background-size: 100%;
@@ -46,7 +46,7 @@
 .hero__blob {
   min-height: 62rem;
   position: absolute;
-  z-index: -10;
+  z-index: -1;
   top: 18rem;
   animation: blob infinite 12s ease-in-out;
 }
@@ -95,6 +95,16 @@
   min-height: 12rem;
 }
 
+.hero__plus--5 {
+  position: relative;
+  transform: rotate(45deg);
+  transition: transform 0.3;
+  animation: plus--2 infinite 60s linear backwards;
+  left: 35rem;
+  top: -25rem;
+  min-height: 10rem;
+}
+
 .hero__planet {
   position: relative;
   top: 22rem;
@@ -115,8 +125,67 @@
   position: relative;
   left: 6rem;
   top: -10rem;
-  animation: ellipse--2 infinite 200s ease-in-out;
-  z-index: -1;
+  animation: ellipse--2 infinite 100s ease-in-out;
+  z-index: -2;
+}
+
+.hero__ellipse--3 {
+  z-index: -3;
+  position: relative;
+  top: 17rem;
+  opacity: 0.5;
+  min-height: 3rem;
+  animation: ellipse--3 infinite 200s linear;
+}
+
+.hero__ellipse--4 {
+  z-index: -4;
+  position: relative;
+  top: 17rem;
+  opacity: 0.05;
+  min-height: 20rem;
+  animation: ellipse--4 infinite 180s linear;
+}
+
+.hero__star--1 {
+  min-height: 6rem;
+  position: relative;
+  left: 40rem;
+  top: -40rem;
+  animation: star infinite 2s linear;
+}
+
+.hero__star--2 {
+  min-height: 6rem;
+  position: relative;
+  left: -40rem;
+  top: -29rem;
+  animation: star infinite 8s linear;
+}
+
+.hero__star--3 {
+  min-height: 3rem;
+  position: relative;
+  left: -3rem;
+  top: -15rem;
+  animation: star infinite 5s linear;
+}
+
+.hero__star--4 {
+  min-height: 4rem;
+  position: relative;
+  left: -2rem;
+  top: -30rem;
+  animation: star infinite 10s linear;
+}
+
+.hero__star--5 {
+  min-height: 2rem;
+  position: relative;
+  left: 3rem;
+  top: -2rem;
+  animation: star infinite 3s linear;
+  transform: rotate(90deg);
 }
 
 .hero__wrapper--2 {
@@ -134,6 +203,7 @@
   padding: 1.5rem;
   border-radius: 2rem;
   width: 7.5rem;
+  transition: all 0.3s linear;
 }
 .hero__menu--1 i {
   background-color: rgb(51, 34, 211);
@@ -156,9 +226,15 @@
   justify-items: center;
   align-items: center;
   margin: 7rem 0.5rem 45rem 5rem;
+  transition: transform 0.2s linear;
 }
 
-.hero__menu > * {
+.hero__menu:hover i {
+  transform: translateY(-2rem);
+  font-size: 5rem;
+}
+
+.hero__menu:hover .hero__menu > * {
   margin: 1rem 3rem;
 }
 

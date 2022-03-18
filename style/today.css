@@ -40,7 +40,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(76, 70, 87);
+  background-color: var(--card-background-color);
   padding: 1rem;
   border-radius: 2rem;
   margin: 2rem 1rem;
@@ -74,7 +74,7 @@
 }
 
 .today__text p {
-  color: rgb(99, 99, 99);
+  color: var(--font-accent-color);
   margin: 0.5rem 0;
 }
 
@@ -227,7 +227,7 @@
 
 .today__price p {
   font-size: 1.5rem;
-  color: rgb(99, 99, 99);
+  color: var(--font-accent-color);
 }
 
 .today__price h4 {
