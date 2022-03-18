@@ -198,4 +198,5 @@
 
 .auctions__item:hover {
   transform: translateY(-2rem);
+  box-shadow: 0.5rem 3em 10rem 1rem rgba(0, 0, 0, 0.8);
 }

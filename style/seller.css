@@ -1,0 +1,90 @@
+.seller__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seller__title {
+  color: #fff;
+}
+
+.seller__card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 2.5rem;
+}
+
+.seller__card > * {
+  margin: 1rem;
+}
+
+.seller__avatar {
+  max-width: 8rem;
+  max-height: 8rem;
+  border-radius: 2rem;
+}
+
+.seller__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.seller__text > * {
+  margin: 0.5rem 0;
+}
+
+.seller__text p {
+  color: rgb(99, 99, 99);
+}
+
+.seller__text h4 {
+  color: #fff;
+}
+
+.seller__row--1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.seller__row--2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.seller__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+  color: var(--light-color);
+  background-color: rgb(76, 70, 87);
+  padding: 2rem 1rem;
+  border-radius: 2rem;
+  transition: all 0.2s linear;
+}
+
+.seller__wrapper--1 {
+  background-image: url(../assets/axies-images/03_Live\ Auctions/card-item8.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 20rem;
+  min-height: 20rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-block-end: 1rem;
+}
