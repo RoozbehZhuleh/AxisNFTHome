@@ -103,12 +103,20 @@ a {
 @keyframes ellipse--1 {
   10% {
     transform: translateX(30rem) translateY(-60rem);
+    opacity: 0.8;
   }
   25% {
     transform: translateX(-80rem) translateY(-30rem);
+    opacity: 0.5;
   }
   50% {
     transform: translateX(-60rem) translateY(-50rem);
+    opacity: 0.3;
+  }
+
+  75% {
+    transform: translateX(-10rem) translateY(-10rem);
+    opacity: 1;
   }
 }
 
@@ -121,5 +129,29 @@ a {
   }
   50% {
     transform: translateX(20rem) translateY(40rem);
+  }
+}
+
+@keyframes planet {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-5rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes blob {
+  0% {
+    min-height: 58rem;
+  }
+  50% {
+    min-height: 62rem;
+  }
+  100% {
+    min-height: 58rem;
   }
 }

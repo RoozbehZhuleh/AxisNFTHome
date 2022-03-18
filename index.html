@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./style/navbar.css">
     <link rel="stylesheet" href="./style/hero.css">
     <link rel="stylesheet" href="./style/auctions.css">
+    <link rel="stylesheet" href="./style/collection.css">
 </head>
 <body>
     <nav id="navbar" role="navigation">
@@ -39,7 +40,8 @@
         </div>
     </nav>
     
-                            <!-- hero -->
+    
+<!-- hero -->
 
 
 <section id="hero">
@@ -94,21 +96,24 @@
     </div>
 </section>
 
+<!-- Live Auctions -->
 
 <section id="live-auctions">
     <div class="container">
         <div class="auctions__wrapper">
             <div class="auctions__title">
                 <h2>Live Auctions</h2>
-                <a href="#">Explore More</a>
             </div>
 
             <div class="auctions__items">
                 <div class="auctions__item--1 auctions__item">
                     <div class="item__wrapper--1">
-                        <div class="item__countdown--1">
+                        <a class="bid">
+                            <i class="fa-solid fa-tag"></i> <p>Place Bid</p>
+                        </a>
+                        <div class="item__countdown--1 item__countdown">
                             <i class="fa-solid fa-clock"></i>
-                            <p>5:23:22:08</p>
+                            <p>5 : 23 : 22 : 08</p>
                         </div>
                     </div>
                     <h5>"Hamlet Contemplates Yorick's...</h5>
@@ -117,7 +122,7 @@
                         <p>Creator <br/> SalvadorDali</p>
                     </div>
                     <div class="line"></div>
-                    <div class="bid">
+                    <div class="current-bid">
                         <div class="bid__price">
                             <p>Current Bid</p>
                             <h4>4.89 ETH = $12.246</h4>
@@ -131,9 +136,12 @@
 
                 <div class="auctions__item--2 auctions__item">
                     <div class="item__wrapper--2">
-                        <div class="item__countdown--2">
+                        <a class="bid">
+                            <i class="fa-solid fa-tag"></i> <p>Place Bid</p>
+                        </a>
+                        <div class="item__countdown--2 item__countdown">
                             <i class="fa-solid fa-clock"></i>
-                            <p>5:23:22:08</p>
+                            <p>5 : 23 : 22 : 08</p>
                         </div>
                     </div>
                     <h5>"Hamlet Contemplates Yorick's...</h5>
@@ -142,7 +150,7 @@
                         <p>Creator <br/> SalvadorDali</p>
                     </div>
                     <div class="line"></div>
-                    <div class="bid">
+                    <div class="current-bid">
                         <div class="bid__price">
                             <p>Current Bid</p>
                             <h4>4.89 ETH = $12.246</h4>
@@ -156,9 +164,12 @@
 
                 <div class="auctions__item--3 auctions__item">
                     <div class="item__wrapper--3">
-                        <div class="item__countdown--3">
+                        <a class="bid">
+                            <i class="fa-solid fa-tag"></i> <p>Place Bid</p>
+                        </a>
+                        <div class="item__countdown--3 item__countdown">
                             <i class="fa-solid fa-clock"></i>
-                            <p>5:23:22:08</p>
+                            <p>5 : 23 : 22 : 08</p>
                         </div>
                     </div>
                     <h5>"Hamlet Contemplates Yorick's...</h5>
@@ -167,7 +178,7 @@
                         <p>Creator <br/> SalvadorDali</p>
                     </div>
                     <div class="line"></div>
-                    <div class="bid">
+                    <div class="current-bid">
                         <div class="bid__price">
                             <p>Current Bid</p>
                             <h4>4.89 ETH = $12.246</h4>
@@ -181,9 +192,12 @@
 
                 <div class="auctions__item--4 auctions__item ">
                     <div class="item__wrapper--4">
-                        <div class="item__countdown--4">
+                        <a class="bid">
+                            <i class="fa-solid fa-tag"></i> <p>Place Bid</p>
+                        </a>
+                        <div class="item__countdown--4 item__countdown">
                             <i class="fa-solid fa-clock"></i>
-                            <p>5:23:22:08</p>
+                            <p>5 : 23 : 22 : 08</p>
                         </div>
                     </div>
                     <h5>"Hamlet Contemplates Yorick's...</h5>
@@ -192,7 +206,7 @@
                         <p>Creator <br/> SalvadorDali</p>
                     </div>
                     <div class="line"></div>
-                    <div class="bid">
+                    <div class="current-bid">
                         <div class="bid__price">
                             <p>Current Bid</p>
                             <h4>4.89 ETH = $12.246</h4>
@@ -205,29 +219,45 @@
                 </div> 
             </div>
             <div class="slider">
-                <i class="fa-solid fa-arrow-left"></i>
                 <i class="fa-solid fa-circle-dot"></i>
                 <i class="fa-solid fa-circle"></i>
                 <i class="fa-solid fa-circle"></i>
                 <i class="fa-solid fa-circle"></i>
-                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="explore">
+                <a href="#">Explore More</a>
             </div>
         </div>
     </div>
 </section>
 
+<!--popular collection -->
+
 <section id="collection">
     <div class="container">
         <div class="collection__wrapper">
+            <div class="collection__title">
+                <h2>Popular Collection</h2>
+            </div>
             <div class="collection__item collection__item--1">
                 <div class="first-row">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img src="./assets/axies-images/06_Popular Collection/box1/collection-item-2.jpg" alt="collection">
+                    <img src="./assets/axies-images/06_Popular Collection/box2/img-collection24.jpg" alt="">
                 </div>
                 <div class="second-row">
+                    <img src="./assets/axies-images/06_Popular Collection/box1/collection-item-bottom-4.jpg" alt="collection">
+                    <img src="./assets/axies-images/06_Popular Collection/box1/collection-item-top-1.jpg" alt="collection">
+                    <img src="./assets/axies-images/06_Popular Collection/box1/collection-item-top-2.jpg" alt="collection">
+                </div>
+                <div class="collection__creator">
                     <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <h3>Creative Art Collections</h3>
+                    <span class="collection__created"><p>Created by</p></span>
+                    <span class="collection__creator--name">Relph Garraway</span>
+                    <div class="likes">
+                        <i class="fa-solid fa-heart"></i>
+                        <p>100</p>
+                    </div>
                 </div>
             </div>
         </div>

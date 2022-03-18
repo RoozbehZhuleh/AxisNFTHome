@@ -36,6 +36,7 @@
 
 .hero__item--left > * {
   margin: 1rem;
+  padding: 0 0 0 3rem;
 }
 
 .hero__img {
@@ -47,13 +48,13 @@
   position: absolute;
   z-index: -10;
   top: 18rem;
-  /* left: 5rem; */
+  animation: blob infinite 12s ease-in-out;
 }
 
 .hero__rabbit {
   position: relative;
   z-index: 1;
-  animation: rabbit infinite 2s linear;
+  animation: rabbit infinite 30s linear;
   top: 10rem;
   left: 45rem;
 }
@@ -97,6 +98,8 @@
 .hero__planet {
   position: relative;
   top: 22rem;
+  transition: all 1s linear;
+  animation: planet infinite 10s ease-in-out;
 }
 
 .hero__ellipse--1 {
@@ -105,7 +108,7 @@
   top: 17rem;
   opacity: 0.5;
   min-height: 6rem;
-  animation: ellipse--1 infinite 300s linear;
+  animation: ellipse--1 infinite 150s linear;
 }
 
 .hero__ellipse--2 {
@@ -152,11 +155,11 @@
   flex-direction: column;
   justify-items: center;
   align-items: center;
-  margin-block-end: 50rem;
+  margin: 7rem 0.5rem 45rem 5rem;
 }
 
 .hero__menu > * {
-  margin: 2rem;
+  margin: 1rem 3rem;
 }
 
 .slider {

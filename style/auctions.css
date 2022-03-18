@@ -7,17 +7,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  background-color: rgb(49, 37, 71);
+  /* background-color: rgb(49, 37, 71); */
 }
 
 .auctions__title {
   display: flex;
   flex-direction: row;
+  padding: 1rem 2rem 0.5rem 2rem;
+  background-color: rgb(49, 37, 71);
+  border-radius: 1rem 1rem 0 0;
 }
 
 .auctions__title h2 {
   color: #fff;
-  margin-inline-end: 100%;
 }
 
 .auctions__items {
@@ -25,6 +27,26 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background-color: rgb(49, 37, 71);
+  border-radius: 1.5rem;
+}
+
+.auctions__items::before {
+  content: url(../assets/axies-images/03_Live\ Auctions/circle-chevron-left-solid.svg);
+  cursor: pointer;
+  display: inline-block;
+  min-width: 10rem;
+  position: relative;
+  left: 2rem;
+}
+
+.auctions__items::after {
+  content: url(../assets/axies-images/03_Live\ Auctions/circle-chevron-right-solid.svg);
+  cursor: pointer;
+  display: inline-block;
+  min-width: 10rem;
+  position: relative;
+  left: -2rem;
 }
 
 .auctions__item {
@@ -35,8 +57,9 @@
   margin: 5rem;
   color: var(--light-color);
   background-color: rgb(76, 70, 87);
-  padding: 1.5rem;
+  padding: 2rem 1rem;
   border-radius: 2rem;
+  transition: all 0.2s linear;
 }
 
 .auctions__creator img {
@@ -63,36 +86,56 @@
   min-width: 20rem;
   min-height: 20rem;
   border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-block-end: 1rem;
 }
 
 .item__wrapper--2 {
-  background-image: url(../assets/axies-images/03_Live\ Auctions/card-item8.jpg);
+  background-image: url(../assets/axies-images/03_Live\ Auctions/image-box-21.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-width: 20rem;
   min-height: 20rem;
   border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-block-end: 1rem;
 }
 
 .item__wrapper--3 {
-  background-image: url(../assets/axies-images/03_Live\ Auctions/card-item8.jpg);
+  background-image: url(../assets/axies-images/03_Live\ Auctions/image-box-11.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-width: 20rem;
   min-height: 20rem;
   border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-block-end: 1rem;
 }
 
 .item__wrapper--4 {
-  background-image: url(../assets/axies-images/03_Live\ Auctions/card-item8.jpg);
+  background-image: url(../assets/axies-images/03_Live\ Auctions/image-box-10.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-width: 20rem;
   min-height: 20rem;
   border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-block-end: 1rem;
 }
 
 .line {
@@ -100,4 +143,59 @@
   min-height: 2%;
   border: 1px solid rgb(45, 43, 48);
   margin: 1rem;
+}
+
+.item__countdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-color);
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.slider {
+  padding: 0.5rem 2rem 1rem 2rem;
+  background-color: rgb(49, 37, 71);
+  border-radius: 0 0 1rem 1rem;
+}
+
+.explore {
+  position: relative;
+  font-size: 2.5rem;
+  left: 32%;
+  max-width: 15rem;
+}
+
+.bid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem 1.2rem;
+  background-color: var(--light-color);
+  position: relative;
+  top: -5rem;
+  border-radius: 1rem;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.bid i {
+  margin-inline-end: 0.5rem;
+  color: rgb(97, 76, 136);
+}
+
+.bid p {
+  color: black;
+}
+
+.bid:hover {
+  opacity: 1;
+}
+
+.auctions__item:hover {
+  transform: translateY(-2rem);
 }

@@ -1,6 +1,5 @@
 #navbar {
   min-height: 10vh;
-  position: sticky;
 }
 
 .navbar__logo img {
@@ -8,11 +7,13 @@
 }
 
 .navbar__wrapper {
-  margin-top: 1rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  border-block-end: 0.1rem solid grey;
+  position: sticky;
 }
 
 .navbar__menu {
