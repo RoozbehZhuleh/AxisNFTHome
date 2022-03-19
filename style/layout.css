@@ -95,8 +95,17 @@ a {
 .likes {
   color: var(--light-color);
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: flex-end;
+  padding: 1rem;
+  position: relative;
+  top: 0.5rem;
+  cursor: pointer;
+}
+
+.likes i {
+  color: red;
+  margin: 0 0.5rem 0 0;
 }
 
 @keyframes rabbit {

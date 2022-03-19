@@ -1,12 +1,15 @@
 #navbar {
-  min-height: 10vh;
+  min-height: 5vh;
   position: sticky;
-  top: 0.1rem;
+  top: 0rem;
   z-index: 2;
+  background-image: linear-gradient(90deg, rgb(0, 0, 0) 0%, #170322 75%);
+  border-block-end: 0.1rem solid var(--secondary-background-color);
 }
 
 .navbar__logo img {
   max-height: 8rem;
+  margin: 0.5rem 0;
 }
 
 .navbar__wrapper {
@@ -15,8 +18,6 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  border-block-end: 0.1rem solid var(--secondary-background-color);
-  position: sticky;
 }
 
 .navbar__menu {
@@ -72,6 +73,11 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+.navbar__button--light,
+.navbar__button--light {
+  border: none;
 }
 
 .navbar--modes > * {
