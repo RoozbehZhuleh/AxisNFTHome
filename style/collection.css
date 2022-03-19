@@ -13,12 +13,19 @@
   align-items: center;
 }
 
-.collection__title {
+.collection__title h2 {
   color: #fff;
-  background-color: rgb(49, 37, 71);
   padding: 1rem 2rem;
-  margin: 1rem 0;
-  border-radius: 2rem;
+  margin: 0 0 1rem 0;
+  border-radius: 4rem;
+  font-size: 4rem;
+  border-radius: 3rem;
+}
+
+.collection__title img {
+  z-index: -1;
+  max-height: 12rem;
+  animation: monster 8s infinite linear;
 }
 
 .collection__item {
@@ -26,7 +33,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-color: rgb(49, 37, 71);
+  background-color: var(--secondary-background-color);
   margin: 0 2rem;
   border-radius: 2rem;
 }

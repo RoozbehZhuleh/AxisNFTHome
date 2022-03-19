@@ -71,14 +71,32 @@ a {
   box-shadow: inset 0 0 0 0.1rem var(--accent-color);
 }
 
-.btn:hover {
+.btn__secondary {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  box-shadow: inset 0 0 0 0.1rem var(--font-accent-color);
+}
+
+.btn__primary:hover {
   background-color: var(--accent-color);
   color: var(--light-color);
+}
+
+.btn__secondary:hover {
+  background-color: var(--font-accent-color);
+  color: var(--dark-color);
 }
 
 .secondary-text {
   color: var(--font-accent-color);
   font-family: inherit;
+}
+
+.likes {
+  color: var(--light-color);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 @keyframes rabbit {
@@ -219,5 +237,39 @@ a {
   }
   100% {
     opacity: 0.3;
+  }
+}
+
+@keyframes monster {
+  0% {
+    transform: rotate(2deg) translateY(3rem);
+    z-index: -1;
+  }
+
+  50% {
+    transform: rotate(0deg) translateX(28rem) translateY(2rem);
+    z-index: -1;
+  }
+
+  100% {
+    transform: rotate(0deg) translateY(3rem);
+    z-index: -1;
+  }
+}
+
+@keyframes monster2 {
+  0% {
+    transform: translateY(0);
+    z-index: -1;
+  }
+
+  50% {
+    transform: translateY(-30rem);
+    z-index: -1;
+  }
+
+  100% {
+    transform: rotate(0deg) translateY(0rem);
+    z-index: -1;
   }
 }

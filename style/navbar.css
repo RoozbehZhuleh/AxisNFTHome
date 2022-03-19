@@ -1,6 +1,8 @@
 #navbar {
   min-height: 10vh;
   position: sticky;
+  top: 0.1rem;
+  z-index: 2;
 }
 
 .navbar__logo img {

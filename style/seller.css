@@ -8,6 +8,10 @@
 
 .seller__title {
   color: #fff;
+  background-color: var(--secondary-background-color);
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  font-size: 2rem;
 }
 
 .seller__text {

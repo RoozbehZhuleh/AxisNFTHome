@@ -32,6 +32,7 @@
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+  animation: title 2s infinite linear;
 }
 
 .hero__item--left > * {
@@ -63,7 +64,6 @@
   position: relative;
   min-height: 10rem;
   transform: rotate(45deg);
-  transition: transform 0.3;
   animation: plus--1 infinite 40s linear;
   top: 22rem;
 }
@@ -90,7 +90,7 @@
   transform: rotate(45deg);
   transition: transform 0.3;
   animation: plus--2 infinite 10s linear backwards;
-  left: -8rem;
+  left: -30rem;
   top: -20rem;
   min-height: 12rem;
 }
@@ -231,10 +231,8 @@
 
 .hero__menu:hover i {
   transform: translateY(-2rem);
-  font-size: 5rem;
 }
-
-.hero__menu:hover .hero__menu > * {
+.hero__menu > * {
   margin: 1rem 3rem;
 }
 

@@ -1,0 +1,36 @@
+@media (max-width: 70rem) {
+  .navbar__menu {
+    display: none;
+  }
+
+  .hero__item--right {
+    display: none;
+  }
+
+  .hero__item--left h1 {
+    font-size: 8rem;
+  }
+
+  .auctions__items {
+    flex-direction: column;
+  }
+
+  img.auctions__items::before,
+  .auctions__items::after img {
+    max-height: 1rem;
+  }
+
+  .collection__items {
+    flex-direction: column;
+  }
+
+  .collection__item {
+    margin: 2rem 0;
+  }
+
+  .explore {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
