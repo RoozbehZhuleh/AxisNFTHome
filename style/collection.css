@@ -36,6 +36,7 @@
   background-color: var(--secondary-background-color);
   margin: 0 2rem;
   border-radius: 2rem;
+  transition: all 0.2s linear;
 }
 
 .first-row {
@@ -258,4 +259,12 @@
 .explore-collection {
   position: relative;
   top: 2rem;
+}
+
+.collection__item:hover {
+  background-color: var(--card-background-color);
+  cursor: pointer;
+}
+
+.collection__item:hover {
 }

@@ -17,7 +17,7 @@
   justify-content: space-around;
   align-items: space-around;
   margin-block-start: 10rem;
-  margin: 0rem 5rem;
+  margin: 10rem 0 0 12rem;
 }
 
 .word-monster {
@@ -34,6 +34,10 @@
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   animation: title 2s infinite linear;
+}
+
+.hero__item--left h1 {
+  font-size: 8rem;
 }
 
 .hero__item--left > * {

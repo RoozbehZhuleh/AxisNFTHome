@@ -15,6 +15,10 @@
     flex-direction: column;
   }
 
+  .item__wrapper--1 {
+    background-size: cover;
+  }
+
   img.auctions__items::before,
   .auctions__items::after img {
     max-height: 1rem;
@@ -37,5 +41,65 @@
   .seller__card {
     max-width: 14rem;
     margin: 0 1rem;
+  }
+}
+
+@media (max-width: 90rem) {
+  .hero__blob {
+    display: none;
+  }
+
+  .hero__ellipse--1,
+  .hero__ellipse--2,
+  .hero__ellipse--3,
+  .hero__ellipse--4 {
+    animation: none;
+    left: -48rem;
+  }
+
+  .hero__planet {
+    animation: none;
+    left: -40rem;
+  }
+
+  .hero__plus--1,
+  .hero__plus--2,
+  .hero__plus--3,
+  .hero__plus--4,
+  .hero__plus--5 {
+    display: none;
+  }
+
+  .hero__star--1,
+  .hero__star--2,
+  .hero__star--3,
+  .hero__star--4,
+  .hero__star--5 {
+    left: -35rem;
+
+    z-index: -10;
+  }
+
+  .hero__rabbit {
+    left: 2rem;
+  }
+
+  .auctions__item {
+    max-width: 25rem;
+    max-height: 100%;
+  }
+
+  .collection__items {
+    flex-wrap: wrap;
+  }
+
+  .collection__img--1,
+  .collection__img--2,
+  .collection__img--6,
+  .collection__img--7,
+  .collection__img--11,
+  .collection__img--12 {
+    max-width: 12rem;
+    max-height: 10rem;
   }
 }

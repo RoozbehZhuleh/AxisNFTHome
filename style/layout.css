@@ -38,7 +38,7 @@
   --light-color: #575757;
   --font-accent-color: #363636;
   --card-background-color: rgba(251, 255, 0, 0.74);
-  --secondary-background-color: rgba(201, 20, 20, 0.384);
+  --secondary-background-color: rgba(68, 20, 201, 0.384);
   --light-font-color: #555555;
 }
 
@@ -255,13 +255,13 @@ a {
 
 @keyframes blob {
   0% {
-    min-height: 58rem;
+    min-height: 50rem;
   }
   50% {
-    min-height: 62rem;
+    min-height: 60rem;
   }
   100% {
-    min-height: 58rem;
+    min-height: 50rem;
   }
 }
 
