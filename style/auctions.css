@@ -1,5 +1,6 @@
 #live-auctions {
   min-height: 30vh;
+  margin: 10rem 0 0 0;
 }
 
 .auctions__wrapper {
@@ -18,7 +19,8 @@
 }
 
 .auctions__title h2 {
-  color: #fff;
+  color: var(--light-font-color);
+  font-size: 3rem;
 }
 
 .auctions__items {
@@ -37,7 +39,7 @@
   min-width: 5rem;
   max-width: 10rem;
   position: relative;
-  left: 2rem;
+  left: 1rem;
 }
 
 .auctions__items::after {
@@ -47,7 +49,7 @@
   min-width: 5rem;
   max-width: 10rem;
   position: relative;
-  left: -2rem;
+  left: -1rem;
 }
 
 .auctions__item {
@@ -55,8 +57,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 5rem;
-  color: var(--light-color);
+  margin: 5rem 2rem;
+  color: var(--light-font-color);
   background-color: var(--card-background-color);
   padding: 2rem 1rem;
   border-radius: 2rem;
@@ -84,14 +86,14 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 20rem;
-  min-height: 20rem;
+  min-width: 25rem;
+  min-height: 25rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  margin-block-end: 1rem;
+  margin: 0 0 1rem 0;
 }
 
 .item__wrapper--2 {
@@ -99,8 +101,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 20rem;
-  min-height: 20rem;
+  min-width: 25rem;
+  min-height: 25rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -114,8 +116,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 20rem;
-  min-height: 20rem;
+  min-width: 25rem;
+  min-height: 25rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -129,8 +131,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 20rem;
-  min-height: 20rem;
+  min-width: 25rem;
+  min-height: 25rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -165,7 +167,7 @@
 
 .explore {
   position: relative;
-  /* font-size: 2.5rem; */
+
   left: 50rem;
   max-width: 15rem;
   top: -3.5rem;
@@ -177,7 +179,7 @@
   justify-content: center;
   align-items: center;
   padding: 0.3rem 1.2rem;
-  background-color: var(--light-color);
+  background-color: var(--primary-color);
   position: relative;
   top: -5rem;
   border-radius: 1rem;
@@ -187,11 +189,11 @@
 
 .bid i {
   margin-inline-end: 0.5rem;
-  color: rgb(97, 76, 136);
+  color: var(--accent-color);
 }
 
 .bid p {
-  color: black;
+  color: var(--font-light-color);
 }
 
 .auctions__item:hover {

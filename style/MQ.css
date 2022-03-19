@@ -33,4 +33,9 @@
     top: 0;
     left: 0;
   }
+
+  .seller__card {
+    max-width: 14rem;
+    margin: 0 1rem;
+  }
 }

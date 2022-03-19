@@ -3,11 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10rem 0 20rem 0;
+  margin: 25rem 0 20rem 0;
 }
 
 .seller__title {
-  color: #fff;
+  color: var(--light-font-color);
   background-color: var(--secondary-background-color);
   padding: 1rem 2rem;
   border-radius: 3rem;
@@ -30,7 +30,7 @@
 }
 
 .seller__text h4 {
-  color: #fff;
+  color: var(--light-font-color);
 }
 
 .seller__row--1 {
@@ -54,6 +54,7 @@
   justify-content: flex-start;
   align-items: center;
   margin: 0 2.5rem;
+  transition: all 0.1s linear;
 }
 
 .seller__card > * {
@@ -64,4 +65,9 @@
   max-width: 8rem;
   max-height: 8rem;
   border-radius: 2rem;
+  transition: all 0.1s linear;
+}
+
+.seller__card:hover .seller__avatar {
+  transform: rotate(5deg) translateY(-1rem);
 }

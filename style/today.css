@@ -1,3 +1,6 @@
+#today {
+  margin: 15rem 0 0 0;
+}
 .today__wrapper {
   display: flex;
   flex-direction: column;
@@ -6,7 +9,7 @@
 }
 
 .today__title {
-  color: #fff;
+  color: var(--light-font-color);
   background-color: var(--secondary-background-color);
   padding: 1rem 2rem;
   border-radius: 3rem;
@@ -62,7 +65,7 @@
 }
 
 .today__item h5 {
-  color: #fff;
+  color: var(--light-font-color);
   margin: 0.5rem 0;
 }
 
@@ -84,7 +87,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  color: #fff;
+  color: var(--light-font-color);
   margin: 0 1rem;
 }
 
@@ -246,7 +249,7 @@
 }
 
 .today__price h4 {
-  color: #fff;
+  color: var(--light-font-color);
   margin: 1rem 0 0 0;
 }
 
@@ -255,7 +258,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
-  color: #fff;
+  color: var(--light-font-color);
 }
 
 .history p {

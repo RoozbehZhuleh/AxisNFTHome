@@ -3,7 +3,11 @@
   position: sticky;
   top: 0rem;
   z-index: 2;
-  background-image: linear-gradient(90deg, rgb(0, 0, 0) 0%, #170322 75%);
+  background-image: linear-gradient(
+    90deg,
+    var(--dark-color) 0%,
+    var(--primary-color) 75%
+  );
   border-block-end: 0.1rem solid var(--secondary-background-color);
 }
 
