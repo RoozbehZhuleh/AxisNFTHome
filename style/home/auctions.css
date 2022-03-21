@@ -33,7 +33,7 @@
 }
 
 .auctions__items::before {
-  content: url(../assets/axies-images/03_Live\ Auctions/circle-chevron-left-solid.svg);
+  content: url(../../assets/axies-images/03_Live\ Auctions/circle-chevron-left-solid.svg);
   cursor: pointer;
   display: inline-block;
   min-width: 5rem;
@@ -43,7 +43,7 @@
 }
 
 .auctions__items::after {
-  content: url(../assets/axies-images/03_Live\ Auctions/circle-chevron-right-solid.svg);
+  content: url(../../assets/axies-images/03_Live\ Auctions/circle-chevron-right-solid.svg);
   cursor: pointer;
   display: inline-block;
   min-width: 5rem;
@@ -82,7 +82,7 @@
 }
 
 .item__wrapper--1 {
-  background-image: url(../assets/axies-images/03_Live\ Auctions/card-item8.jpg);
+  background-image: url(../../assets/axies-images/03_Live\ Auctions/card-item8.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -97,7 +97,7 @@
 }
 
 .item__wrapper--2 {
-  background-image: url(../assets/axies-images/03_Live\ Auctions/image-box-21.jpg);
+  background-image: url(../../assets/axies-images/03_Live\ Auctions/image-box-21.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -112,7 +112,7 @@
 }
 
 .item__wrapper--3 {
-  background-image: url(../assets/axies-images/03_Live\ Auctions/image-box-11.jpg);
+  background-image: url(../../assets/axies-images/03_Live\ Auctions/image-box-11.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -127,7 +127,7 @@
 }
 
 .item__wrapper--4 {
-  background-image: url(../assets/axies-images/03_Live\ Auctions/image-box-10.jpg);
+  background-image: url(../../assets/axies-images/03_Live\ Auctions/image-box-10.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

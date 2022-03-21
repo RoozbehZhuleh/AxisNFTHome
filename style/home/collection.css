@@ -49,7 +49,7 @@
 .collection__img--1 {
   min-width: 20rem;
   min-height: 17rem;
-  background-image: url(../assets/axies-images/06_Popular\ Collection/box1/collection-item-2.jpg);
+  background-image: url(../../assets/axies-images/06_Popular\ Collection/box1/collection-item-2.jpg);
   margin: 2rem 0rem 1rem 2rem;
   background-repeat: no-repeat;
   background-position: 25% 75%;
@@ -58,7 +58,7 @@
 }
 
 .collection__img--2 {
-  background-image: url(../assets/axies-images/06_Popular\ Collection/box2/img-collection24.jpg);
+  background-image: url(../../assets/axies-images/06_Popular\ Collection/box2/img-collection24.jpg);
   min-width: 20rem;
   min-height: 17rem;
   margin: 2rem 2rem 0rem 1rem;
@@ -78,7 +78,7 @@
 .collection__img--3 {
   min-width: 13rem;
   min-height: 13rem;
-  background-image: url(../assets/axies-images/06_Popular\ Collection/box1/collection-item-bottom-4.jpg);
+  background-image: url(../../assets/axies-images/06_Popular\ Collection/box1/collection-item-bottom-4.jpg);
   margin: 2rem 0rem 1rem 1.5rem;
   background-repeat: no-repeat;
   background-position: 25% 75%;
@@ -89,7 +89,7 @@
 .collection__img--4 {
   min-width: 13rem;
   min-height: 13rem;
-  background-image: url(../assets/axies-images/06_Popular\ Collection/box1/collection-item-top-1.jpg);
+  background-image: url(../../assets/axies-images/06_Popular\ Collection/box1/collection-item-top-1.jpg);
   margin: 2rem 0rem 1rem 1rem;
   background-repeat: no-repeat;
   background-position: 25% 75%;
@@ -100,7 +100,7 @@
 .collection__img--5 {
   min-width: 13rem;
   min-height: 13rem;
-  background-image: url(../assets/axies-images/06_Popular\ Collection/box1/collection-item-top-2.jpg);
+  background-image: url(../../assets/axies-images/06_Popular\ Collection/box1/collection-item-top-2.jpg);
   margin: 2rem 0rem 1rem 1rem;
   background-repeat: no-repeat;
   background-position: 25% 75%;
@@ -111,16 +111,16 @@
 .collection__img--6 {
   min-width: 20rem;
   min-height: 17rem;
-  background-image: url(../assets/axies-images/06_Popular\ Collection/box1/collection-item-2.jpg);
+  background-image: url(../../assets/axies-images/06_Popular\ Collection/box2/img-collection11.jpg);
   margin: 2rem 0rem 1rem 2rem;
   background-repeat: no-repeat;
   background-position: 25% 75%;
-  background-size: 25rem 40rem;
+  background-size: cover;
   border-radius: 3rem;
 }
 
 .collection__img--7 {
-  background-image: url(../assets/axies-images/06_Popular\ Collection/box2/img-collection24.jpg);
+  background-image: url(../../assets/axies-images/06_Popular\ Collection/box3/img-collection17.jpg);
   min-width: 20rem;
   min-height: 17rem;
   margin: 2rem 2rem 0rem 1rem;
@@ -133,49 +133,45 @@
 .collection__img--8 {
   min-width: 13rem;
   min-height: 13rem;
-  background-image: url(../assets/axies-images/06_Popular\ Collection/box1/collection-item-bottom-4.jpg);
+  background-image: url(../../assets/axies-images/06_Popular\ Collection/box2/img-collection10.jpg);
   margin: 2rem 0rem 1rem 1.5rem;
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: cover;
   border-radius: 2rem;
 }
-
 .collection__img--9 {
   min-width: 13rem;
   min-height: 13rem;
-  background-image: url(../assets/axies-images/06_Popular\ Collection/box1/collection-item-top-1.jpg);
+  background-image: url(../../assets/axies-images/06_Popular\ Collection/box1/collection-item-top-1.jpg);
   margin: 2rem 0rem 1rem 1rem;
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: cover;
   border-radius: 2rem;
 }
-
 .collection__img--10 {
   min-width: 13rem;
   min-height: 13rem;
-  background-image: url(../assets/axies-images/06_Popular\ Collection/box1/collection-item-top-2.jpg);
+  background-image: url(../../assets/axies-images/06_Popular\ Collection/box1/collection-item-top-2.jpg);
   margin: 2rem 0rem 1rem 1rem;
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: cover;
   border-radius: 2rem;
 }
-
 .collection__img--11 {
   min-width: 20rem;
   min-height: 17rem;
-  background-image: url(../assets/axies-images/06_Popular\ Collection/box1/collection-item-2.jpg);
+  background-image: url(../../assets/axies-images/06_Popular\ Collection/box1/collection-item-2.jpg);
   margin: 2rem 0rem 1rem 2rem;
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: 25rem 40rem;
   border-radius: 3rem;
 }
-
 .collection__img--12 {
-  background-image: url(../assets/axies-images/06_Popular\ Collection/box2/img-collection24.jpg);
+  background-image: url(../../assets/axies-images/06_Popular\ Collection/box2/img-collection24.jpg);
   min-width: 20rem;
   min-height: 17rem;
   margin: 2rem 2rem 0rem 1rem;
@@ -184,58 +180,51 @@
   background-size: cover;
   border-radius: 3rem;
 }
-
 .collection__img--13 {
   min-width: 13rem;
   min-height: 13rem;
-  background-image: url(../assets/axies-images/06_Popular\ Collection/box1/collection-item-bottom-4.jpg);
+  background-image: url(../../assets/axies-images/06_Popular\ Collection/box1/collection-item-bottom-4.jpg);
   margin: 2rem 0rem 1rem 1.5rem;
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: cover;
   border-radius: 2rem;
 }
-
 .collection__img--14 {
   min-width: 13rem;
   min-height: 13rem;
-  background-image: url(../assets/axies-images/06_Popular\ Collection/box1/collection-item-top-1.jpg);
+  background-image: url(../../assets/axies-images/06_Popular\ Collection/box1/collection-item-top-1.jpg);
   margin: 2rem 0rem 1rem 1rem;
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: cover;
   border-radius: 2rem;
 }
-
 .collection__img--15 {
   min-width: 13rem;
   min-height: 13rem;
-  background-image: url(../assets/axies-images/06_Popular\ Collection/box1/collection-item-top-2.jpg);
+  background-image: url(../../assets/axies-images/06_Popular\ Collection/box1/collection-item-top-2.jpg);
   margin: 2rem 0rem 1rem 1rem;
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: cover;
   border-radius: 2rem;
 }
-
 .collection__creator {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-
 .creator__text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
-
 .creator__text > * {
   margin: 0.2rem 1rem;
 }
-
 .collection__creator img {
   max-width: 7rem;
   max-height: 7rem;
@@ -243,19 +232,15 @@
   margin: 0.5rem;
   margin: 1rem 0 2rem 2rem;
 }
-
 .creator__text h3 {
   color: #fff;
 }
-
 .collection__created {
   color: rgb(99, 99, 99);
 }
-
 .collection__creator--name {
   color: #fff;
 }
-
 .explore-collection {
   position: relative;
   top: 2rem;
@@ -265,6 +250,5 @@
   background-color: var(--card-background-color);
   cursor: pointer;
 }
-
 .collection__item:hover {
 }

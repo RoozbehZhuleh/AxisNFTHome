@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-block-start: 3rem;
+  margin: 3rem 0 0 0;
 }
 
 .hero__title {
@@ -17,7 +17,7 @@
   justify-content: space-around;
   align-items: space-around;
   margin-block-start: 10rem;
-  margin: 10rem 0 0 12rem;
+  margin: 10rem 0 0 11rem;
 }
 
 .word-monster {
@@ -229,7 +229,7 @@
   flex-direction: column;
   justify-items: center;
   align-items: center;
-  margin: 9rem 2rem 45rem 5rem;
+  margin: 0 2rem 40rem 5rem;
   transition: transform 0.2s linear;
 }
 
