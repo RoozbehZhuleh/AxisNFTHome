@@ -87,6 +87,7 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  transition: all 0.2s linear;
 }
 
 .social > * {
@@ -96,4 +97,27 @@ footer {
   background-color: var(--font-accent-color);
   border-radius: 1rem;
   cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+@media (max-width: 90rem) {
+  .social {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--accent-color);
+    padding: 1rem 0.3rem;
+    border-radius: 2.5rem;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+
+  .social > * {
+    background-color: var(--accent-color);
+  }
+
+  .social > *:hover {
+    background-color: var(--primary-color);
+    border-radius: 100%;
+  }
 }

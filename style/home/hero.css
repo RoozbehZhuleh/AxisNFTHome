@@ -1,3 +1,7 @@
+#hero {
+  display: inline;
+}
+
 .hero__wrapper {
   display: flex;
   flex-direction: row;
@@ -243,4 +247,20 @@
 .slider {
   color: #fff;
   cursor: pointer;
+}
+
+.floating-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  width: 3rem;
+  margin: 20rem0;
+}
+
+.floating-social > * {
+  margin: 1rem 0;
+  padding: 0 1rem 0;
+  position: sticky;
 }
