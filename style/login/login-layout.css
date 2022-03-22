@@ -7,7 +7,7 @@
   -webkit-box-sizing: border-box;
 }
 
-/* :root {
+:root {
   --primary-color: #170322;
   --dark-color: #07050e;
   --accent-color: rgb(110, 64, 219);
@@ -16,9 +16,11 @@
   --font-accent-color: #808080;
   --card-background-color: rgb(76, 70, 87);
   --secondary-background-color: rgb(49, 37, 71);
-} */
+  --login-primary-color: rgb(42, 50, 99);
+  --login-secondary-color: rgba(19, 16, 23);
+}
 
-.dark-mode {
+/* .dark-mode {
   --primary-color: #170322;
   --dark-color: #07050e;
   --accent-color: rgb(110, 64, 219);
@@ -28,6 +30,8 @@
   --card-background-color: rgb(76, 70, 87);
   --secondary-background-color: rgb(49, 37, 71);
   --light-font-color: #f3f3f3;
+  --login-primary-color: rgba(25, 20, 65%);
+  --login-secondary-color: rgba(17, 17, 19, 50%);
 }
 
 .light-mode {
@@ -40,7 +44,9 @@
   --card-background-color: rgba(251, 255, 0, 0.74);
   --secondary-background-color: rgba(68, 20, 201, 0.384);
   --light-font-color: #555555;
-}
+  --login-primary-background-color: rgba(25, 20, 65%);
+  --login-secondary-background-color: rgba(17, 17, 19, 50%);
+} */
 
 html {
   font-size: 62.5%;
@@ -51,11 +57,8 @@ html {
 
 body {
   font-size: 1.5rem;
-  background: linear-gradient(
-    90deg,
-    var(--dark-color) 0%,
-    var(--primary-color) 75%
-  );
+  background-color: var(--login-primary-color);
+  overflow-y: hidden;
 }
 
 button {
@@ -77,8 +80,7 @@ a {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-
-  padding: 0 1rem;
+  padding: 0;
 }
 
 .btn {
