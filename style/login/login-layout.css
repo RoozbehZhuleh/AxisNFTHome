@@ -17,7 +17,9 @@
   --card-background-color: rgb(76, 70, 87);
   --secondary-background-color: rgb(49, 37, 71);
   --login-primary-color: rgb(42, 50, 99);
-  --login-secondary-color: rgba(19, 16, 23);
+  --login-secondary-color: rgb(20, 15, 46);
+  --login-third-color: rgb(44, 38, 77);
+  --login-button-color: rgb(72, 78, 119);
 }
 
 /* .dark-mode {
@@ -321,5 +323,14 @@ a {
   100% {
     transform: rotate(0deg) translateY(0rem);
     z-index: -1;
+  }
+}
+
+@keyframes login {
+  0% {
+  }
+  50% {
+  }
+  100% {
   }
 }
