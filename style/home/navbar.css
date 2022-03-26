@@ -92,3 +92,26 @@
   cursor: pointer;
   border-radius: 20%;
 }
+
+.rp-menu {
+  cursor: pointer;
+  padding: 1rem 1.5rem;
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  font-size: 3rem;
+  display: none;
+}
+
+.rp-menu i {
+  color: var(--light-color);
+}
+
+@media (max-width: 60rem) {
+  .rp-menu {
+    display: block;
+  }
+
+  .navbar__menu {
+    display: none;
+  }
+}

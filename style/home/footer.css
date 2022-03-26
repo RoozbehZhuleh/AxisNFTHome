@@ -107,9 +107,11 @@ footer {
     background-color: var(--accent-color);
     padding: 1rem 0.3rem;
     border-radius: 2.5rem;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
+    position: fixed;
+    position: -webkit-fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1.5rem;
   }
 
   .social > * {

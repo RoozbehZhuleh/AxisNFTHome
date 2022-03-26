@@ -62,6 +62,13 @@
   padding: 1rem;
   border-radius: 2rem;
   margin: 2rem 1rem;
+  opacity: 0.8;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.today__item:hover {
+  opacity: 1;
 }
 
 .today__item h5 {
