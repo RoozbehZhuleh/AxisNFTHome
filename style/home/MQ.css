@@ -46,6 +46,10 @@
 }
 
 @media (max-width: 90rem) {
+  html {
+    overflow-x: auto;
+  }
+
   .hero__blob {
     display: none;
   }
@@ -92,6 +96,17 @@
   }
 
   .collection__items {
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    left: 15%;
+  }
+
+  .collection__item {
+    margin: 1rem 0;
+  }
+
+  .second-row {
     flex-wrap: wrap;
   }
 
@@ -102,6 +117,44 @@
   .collection__img--11,
   .collection__img--12 {
     max-width: 12rem;
+    max-height: 12rem;
+  }
+
+  .collection__img--3,
+  .collection__img--4,
+  .collection__img--5,
+  .collection__img--8,
+  .collection__img--9,
+  .collection__img--10,
+  .collection__img--13,
+  .collection__img--14,
+  .collection__img--15 {
+    max-width: 10rem;
     max-height: 10rem;
+  }
+
+  .seller__row--1,
+  .seller__row--2 {
+    flex-wrap: wrap;
+  }
+
+  .seller__card:hover {
+    box-shadow: 0.1rem 0.1rem 1rem var(--accent-color);
+    border-radius: 0;
+  }
+
+  .seller__card:hover .seller__avatar {
+    transform: translateY(-1.5rem);
+    transform: rotate(0);
+  }
+
+  .seller__card {
+    margin: 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  .today__row--1,
+  .today__row--2 {
+    flex-wrap: wrap;
   }
 }
