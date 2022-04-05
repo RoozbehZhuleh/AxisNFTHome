@@ -1,26 +1,38 @@
 #live-auctions {
   min-height: 30vh;
-  margin: 10rem 0 0 0;
+  margin: 5rem 1rem;
 }
 
 .auctions__wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  width: 99%;
 }
 
-.auctions__title {
+.auctions__title__wrapper {
   display: flex;
-  flex-direction: row;
-  padding: 1rem 2rem 0.5rem 2rem;
-  background-color: var(--secondary-background-color);
-  border-radius: 1rem 1rem 0 0;
+  justify-content: flex-start;
+  width: 80%;
+}
+
+.auctions__title{
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
 }
 
 .auctions__title h2 {
   color: var(--light-font-color);
   font-size: 4rem;
+}
+
+.btn-explore{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .auctions__items {
@@ -30,6 +42,7 @@
   align-items: center;
   background-color: var(--secondary-background-color);
   border-radius: 1.5rem;
+  width: 80%;
 }
 
 .auctions__items::before {
@@ -63,37 +76,58 @@
   padding: 2rem 1rem;
   border-radius: 2rem;
   transition: all 0.2s linear;
+  width: 24%;
 }
 
-.auctions__creator img {
-  border-radius: 2rem;
-  max-width: 5rem;
-}
-
-.auctions__creator {
+.auctions__creator__wrapper{
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0 0 0;
 }
 
-.auctions__creator > * {
-  margin: 1rem;
+.auctions__creator__img{
+  width: 30%;
 }
+
+.creator__img{
+  border-radius: var(--avatar-radius);
+  width: 100%;
+}
+
+.auctions__creator__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70%;
+}
+
+.auctions__creator__title{
+  color: var(--font-accent-color);
+  font-size: var(--font-xs);
+}
+
+.auctions__creator__name{
+  color: var(--font-primary-color);
+  font-size: var(--font-s);
+}
+
 
 .item__wrapper--1 {
   background-image: url(../../assets/axies-images/03_Live\ Auctions/card-item8.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 25rem;
-  min-height: 25rem;
+  width: 90%;
+  height: 25rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   margin: 0 0 1rem 0;
+  cursor: pointer;
 }
 
 .item__wrapper--2 {
@@ -101,8 +135,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 25rem;
-  min-height: 25rem;
+  width: 95%;
+  height: 25rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -116,7 +150,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 25rem;
+  width: 95%;
   min-height: 25rem;
   border-radius: 2rem;
   display: flex;
@@ -131,7 +165,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 25rem;
+  width: 95%;
   min-height: 25rem;
   border-radius: 2rem;
   display: flex;
@@ -163,6 +197,7 @@
   padding: 0.5rem 2rem 1rem 2rem;
   background-color: var(--secondary-background-color);
   border-radius: 0 0 1rem 1rem;
+  cursor: pointer;
 }
 
 .explore {
@@ -199,8 +234,60 @@
 .auctions__item:hover {
   transform: translateY(-2rem);
   box-shadow: 0.5rem 3em 10rem 1rem rgba(0, 0, 0, 0.8);
+  cursor: pointer;
 }
 
 .auctions__item:hover .bid {
   opacity: 1;
+}
+
+
+.auctions__likes{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark-color);
+  padding: 1rem;
+  border-radius:1rem;
+}
+
+
+.auctions__likes i{
+  color: red;
+}
+
+.bid-and-likes__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.bid__price{
+display: flex;
+flex-direction:column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+
+.bid__price__wrapper{
+display: flex;
+justify-content: flex-start;
+align-items: flex-end;
+
+}
+
+
+
+.bid__title{
+color: var(--font-accent-color);
+font-size: var(--font-xs);
+}
+
+.btn-explore{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
