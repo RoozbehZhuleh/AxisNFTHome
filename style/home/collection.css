@@ -50,7 +50,7 @@
   width: 20rem;
   height: 17rem;
   background-image: url(../../assets/axies-images/06_Popular\ Collection/box1/collection-item-2.jpg);
-  margin: 2rem 0rem 1rem 2rem;
+  margin: 2rem 0rem 0rem 2rem;
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: 25rem 40rem;
@@ -117,7 +117,7 @@
   width: 20rem;
   height: 17rem;
   background-image: url(../../assets/axies-images/06_Popular\ Collection/box2/img-collection11.jpg);
-  margin: 2rem 0rem 1rem 2rem;
+  margin: 2rem 0rem 0rem 2rem;
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: cover;
@@ -174,7 +174,7 @@
   width: 20rem;
   height: 17rem;
   background-image: url(../../assets/axies-images/06_Popular\ Collection/box3/img-collection12.jpg);
-  margin: 2rem 0rem 1rem 2rem;
+  margin: 2rem 0rem 0rem 2rem;
   background-repeat: no-repeat;
   background-position: 15% 20%;
   background-size: 25rem 40rem;
@@ -228,8 +228,9 @@
 .collection__creator {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  gap: 1rem;
 }
 .creator__text {
   display: flex;

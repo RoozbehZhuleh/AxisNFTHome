@@ -19,6 +19,7 @@
   --light-font-color: #f3f3f3;
   --login-primary-background-color: rgba(25, 20, 65%);
   --login-secondary-background-color: rgba(17, 17, 19, 50%);
+  --dropdown-menu-background: rgba(110, 64, 219, 90%);
   --font-xs:1.2rem;
   --font-s: 1.5rem;
   --font-ms:1.8rem;
@@ -44,6 +45,7 @@
   --light-font-color: #555555;
   --login-primary-background-color: rgba(25, 20, 65%);
   --login-secondary-background-color: rgba(17, 17, 19, 50%);
+  --dropdown-menu-background: rgba(201, 20, 20, 0.384);
   --font-xs:1.2rem;
   --font-s: 1.5rem;
   --font-m: 2rem;

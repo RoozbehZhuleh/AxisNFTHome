@@ -1,7 +1,7 @@
 const explore = document.querySelector(".navbar--explore");
 const exploreDropDownList = document.querySelector(".dropdown-menu__list");
-const exploreDropDownItem = document.querySelector(".dropdown-menu__item");
-const exploreDropDownWrapper = document.querySelector(".dropdown-menu__wrapper");
+const exploreDropDownItem = document.querySelector(".explore__item");
+const exploreDropDownWrapper = document.querySelector(".dropdown-menu--explore");
 const navbarMenuItem = document.querySelector(".navbar__menu__item");
 
 
@@ -16,7 +16,7 @@ function toggleExplore(){
         exploreDropDownWrapper.style.display = "none";
         document.querySelector(".explore-fa").style.transform = "rotate(0)";
     }
-};
+}
 
 explore.addEventListener("click", toggleExplore);
 

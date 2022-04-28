@@ -22,7 +22,6 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  /* width: 100%; */
 }
 
 .navbar__menu {
@@ -79,8 +78,16 @@
   justify-content: flex-start;
   align-items: flex-start;
   width: 10%;
-  transition: all 0.2s linear;
-  
+  transition: all 0.2s linear; 
+}
+
+.dropdown-menu--explore{
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 10%;
+  transition: all 0.2s linear; 
 }
 
 .dropdown-menu__item{
@@ -101,7 +108,7 @@
 .dropdown-menu__list--explore{
   position: absolute;
   transition: all 0.2s linear;
-  background-color: var(--accent-color);
+  background-color: var(--dropdown-menu-background);
   border: 1px solid var(--dark-color);
   border-radius: var(--card-radius);
   width: 10%;
@@ -113,7 +120,7 @@
 .dropdown-menu__list--pages{
   position: absolute;
   transition: all 0.2s linear;
-  background-color: var(--accent-color);
+  background-color: var(--dropdown-menu-background);
   border: 1px solid var(--dark-color);
   border-radius: var(--card-radius);
   width: 10%;

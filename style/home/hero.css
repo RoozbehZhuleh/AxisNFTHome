@@ -41,7 +41,8 @@
 }
 
 .hero__item--left h1 {
-  font-size: 8rem;
+  font-size: 7rem;
+  z-index: 20;
 }
 
 .hero__item--left > * {
@@ -94,6 +95,8 @@
   animation: plus--2 infinite 30s ease-in-out backwards;
   left: -40rem;
   min-height: 5rem;
+  z-index: -1;
+  opacity: 0.3;
 }
 
 .hero__plus--4 {
