@@ -5,6 +5,7 @@ const exploreDropDownWrapper = document.querySelector(".dropdown-menu--explore")
 const navbarMenuItem = document.querySelector(".navbar__menu__item");
 
 
+
 function toggleExplore(){
 
     if (exploreDropDownWrapper.style.display == "none"){
@@ -44,3 +45,4 @@ function togglepages(){
 };
 
 pages.addEventListener("click", togglepages);
+

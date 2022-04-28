@@ -153,22 +153,78 @@
 .navbar--modes {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 1.5rem;
+  transition:all 0.2s linear;
 }
 
-.navbar__button--light,
+
 .navbar__button--light {
-  border: none;
-}
-
-.navbar--modes > * {
   padding: 1rem;
-  margin-inline-start: 0.5rem;
-  height: 4rem;
+  width: 100%;
   background-color: var(--navbar-btn-color);
   cursor: pointer;
   border-radius: 20%;
+}
+
+.navbar__button--light__div{
+  padding: 1rem;
+  width: 62%;
+  background-color: var(--navbar-btn-color);
+  cursor: pointer;
+  border-radius: 20%;
+}
+
+
+.navbar__profile__img{
+  width: 36%;
+  transition: all 0.2s linear;
+}
+
+.navbar__profile__img img{
+  width: 4.5rem;
+  background-color: var(--navbar-btn-color);
+  cursor: pointer;
+  border-radius: 20%;
+  transition: all 0.2s linear;
+  z-index: -2;
+}
+
+.navbar__profile__img::before{
+  content: "3";
+  font-size: 1.2rem;
+  text-align: center;
+  display:block;
+  width: 1%;
+  z-index: 20;
+  border-radius: 100%;
+  background-color: red;
+  position: absolute;
+  top: 20%;
+  transition: all 0.2s linear;
+}
+
+.navbar__profile__img::after{
+  content: " ";
+  display:none;
+  width: 4.6rem;
+  height: 4.6rem;
+  z-index: 20;
+  border-radius: 20%;
+  background-color: rgba(174, 174, 174, 0.744);
+  position: absolute;
+  top: 19%;
+  transition: all 0.2s linear;
+}
+
+.navbar__profile__img:hover.navbar__profile__img:after{
+ display: block;
+ cursor: pointer;
+}
+
+.navbar__profile__img:hover .navbar__button--light__div{
+  width: 10%;
 }
 
 .rp-menu {
