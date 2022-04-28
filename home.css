@@ -1,8 +1,8 @@
-@import url(./style/home/auctions.css);
+@import url(./style/home/layout.css);
 @import url(./style/home/MQ.css);
+@import url(./style/home/auctions.css);
 @import url(./style/home/collection.css);
 @import url(./style/home/footer.css);
-@import url(./style/home/layout.css);
 @import url(./style/home/seller.css);
 @import url(./style/home/today.css);
 @import url(./style/home/hero.css);

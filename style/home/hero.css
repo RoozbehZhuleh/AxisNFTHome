@@ -57,7 +57,8 @@
   min-height: 62rem;
   position: absolute;
   z-index: -1;
-  top: 18rem;
+  top: 20%;
+  left: 53%;
   animation: blob infinite 12s ease-in-out;
 }
 
@@ -65,8 +66,8 @@
   position: relative;
   z-index: 1;
   animation: rabbit infinite 30s linear;
-  top: 10rem;
-  left: 45rem;
+  top: 25%;
+  left: 40%;
 }
 
 .hero__plus--1 {
@@ -82,7 +83,8 @@
   transform: rotate(45deg);
   transition: transform 0.3s;
   animation: plus--2 infinite 30s ease-in-out backwards;
-  left: 2rem;
+  left: -10%;
+  top: -35px;
 }
 
 .hero__plus--3 {
@@ -115,8 +117,9 @@
 
 .hero__planet {
   position: relative;
-  top: 22rem;
-  transition: all 1s linear;
+  top: 90%;
+  left: -20%;
+  /* transition: all 1s linear; */
   animation: planet infinite 10s ease-in-out;
 }
 
@@ -158,8 +161,8 @@
 .hero__star--1 {
   min-height: 6rem;
   position: relative;
-  left: 40rem;
-  top: -40rem;
+  left: -40%;
+  top: -20rem;
   animation: star infinite 2s linear;
 }
 
@@ -249,18 +252,3 @@
   cursor: pointer;
 }
 
-.floating-social {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: blue;
-  width: 3rem;
-  margin: 20rem0;
-}
-
-.floating-social > * {
-  margin: 1rem 0;
-  padding: 0 1rem 0;
-  position: sticky;
-}

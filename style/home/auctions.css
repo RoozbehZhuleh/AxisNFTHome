@@ -84,6 +84,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 1rem 0 0 0;
+  gap: 1rem;
 }
 
 .auctions__creator__img{
@@ -99,7 +100,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   width: 70%;
 }
 
@@ -188,10 +189,13 @@
   justify-content: center;
   align-items: center;
   background-color: var(--dark-color);
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 2rem;
+  gap: 1rem;
   margin: 0 0 0.5rem 0;
 }
+
+
 
 .slider {
   padding: 0.5rem 2rem 1rem 2rem;
@@ -290,4 +294,15 @@ font-size: var(--font-xs);
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.btn__primary {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  box-shadow: inset 0 0 0 0.1rem var(--accent-color);
+}
+
+.btn__primary:hover {
+  background-color: var(--accent-color);
+  color: var(--light-color);
 }
