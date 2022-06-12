@@ -43,12 +43,14 @@
     max-width: 14rem;
     margin: 0 1rem;
   }
+
+  .auctions__items {
+      flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 90rem) {
-  html {
-    overflow-x: auto;
-  }
+ 
 
   .hero__blob {
     display: none;
@@ -95,15 +97,24 @@
     flex-wrap: wrap;
   }
 
+  
+
   .collection__items {
     position: relative;
     flex-wrap: wrap;
     flex-direction: column;
-    left: 15%;
+    /* left: 15%; */
   }
 
   .collection__item {
     margin: 1rem 0;
+  }
+
+  .first-row{
+    display: grid;
+    grid-template-columns: repeat(2, 1f);
+    grid-template-rows: repeat(1, 1f);
+    justify-content: center;
   }
 
   .second-row {
@@ -116,8 +127,8 @@
   .collection__img--7,
   .collection__img--11,
   .collection__img--12 {
-    max-width: 12rem;
-    max-height: 12rem;
+    max-width: 16rem;
+    max-height: 15rem;
   }
 
   .collection__img--3,
@@ -156,5 +167,9 @@
   .today__row--1,
   .today__row--2 {
     flex-wrap: wrap;
+  }
+
+  .today__item{
+    width: 300px;
   }
 }

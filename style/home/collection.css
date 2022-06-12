@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin: 15rem 0 12rem 0;
+  /* margin: 15rem 0 12rem 0; */
 }
 
 .collection__items {
@@ -11,6 +11,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 1rem;
 }
 
 .collection__title h2 {
@@ -34,7 +35,7 @@
   justify-content: center;
   align-items: flex-start;
   background-color: var(--secondary-background-color);
-  margin: 0 2rem;
+  /* margin: 0 2rem; */
   border-radius: 2rem;
   transition: all 0.2s linear;
 }

@@ -62,7 +62,7 @@ html {
   font-size: 62.5%;
   font-family: "montserrat", "Helvetica Neue", "Helvetica";
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 body {
@@ -90,10 +90,9 @@ a {
 }
 
 .container {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-
+  max-width: 95%;
+  margin: 0 auto;
+  width: 1300px;
   padding: 0 1rem;
 }
 

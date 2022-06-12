@@ -103,7 +103,16 @@
   margin: 0.5rem 0;
 }
 
-.today__row--1 {
+
+.today__grid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+}
+
+
+/* .today__row--1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -115,15 +124,15 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .today__wrapper--1 {
   background-image: url(../../assets/axies-images/03_Live\ Auctions/card-item8.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 22rem;
-  min-height: 22rem;
+  min-width: 28rem;
+  min-height: 28rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -137,8 +146,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 22rem;
-  min-height: 22rem;
+  min-width: 28rem;
+  min-height: 28rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -152,8 +161,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 22rem;
-  min-height: 22rem;
+  min-width: 28rem;
+  min-height: 28rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -167,8 +176,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 22rem;
-  min-height: 22rem;
+  min-width: 28rem;
+  min-height: 28rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -182,8 +191,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 22rem;
-  min-height: 22rem;
+  min-width: 28rem;
+  min-height: 28rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -197,8 +206,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 22rem;
-  min-height: 22rem;
+  min-width: 28rem;
+  min-height: 28rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -212,8 +221,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 22rem;
-  min-height: 22rem;
+  min-width: 28rem;
+  min-height: 28rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -227,8 +236,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 22rem;
-  min-height: 22rem;
+  min-width: 28rem;
+  min-height: 28rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -271,4 +280,11 @@
 .history p {
   margin: 0 0 0 0.5rem;
   font-size: 1.2rem;
+}
+
+.line{
+  background:black;
+  /* border-radius: 2rem; */
+  height: 0.5px;
+  width: 107%;
 }
