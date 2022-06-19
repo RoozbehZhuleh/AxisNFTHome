@@ -1,5 +1,8 @@
 # Axies NFT Home Page
 
+<a href="https://roozbehzhuleh.github.io/AxisNFTHome/">LIVE Preview</a>
+
+
 ## Intro
 The second project that I have worked on. It helped me learn the ABC of CSS animations and a bit of responsive design.
 
