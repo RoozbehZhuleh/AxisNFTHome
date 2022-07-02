@@ -9,7 +9,7 @@
 
 .dark-mode {
   --primary-color: #170322;
-  --dark-color: #07050e;
+  --dark-color: #111114;
   --accent-color: rgb(110, 64, 219);
   --navbar-btn-color: rgba(52, 52, 68);
   --light-color: #f3f3f3;
@@ -24,6 +24,7 @@
   --font-s: 1.5rem;
   --font-ms:1.8rem;
   --font-m: 2rem;
+  --font-ml: 2.2rem;
   --font-l: 3rem;
   --font-xl: 4rem;
   --font-xxl: 7rem; 
@@ -72,6 +73,7 @@ body {
     var(--dark-color) 0%,
     var(--primary-color) 75%
   );
+  overflow-x: hidden;
 }
 
 button {
@@ -296,7 +298,7 @@ a {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(-5rem);
+    transform: translateX(5rem);
   }
   100% {
     transform: translateX(0);
@@ -305,13 +307,15 @@ a {
 
 @keyframes blob {
   0% {
-    min-height: 50rem;
+    transform: scale(1);
   }
   50% {
-    min-height: 60rem;
+    /* min-height: 60rem; */
+    transform: scale(1.1);
   }
   100% {
-    min-height: 50rem;
+    /* min-height: 50rem; */
+    transform: scale(1);
   }
 }
 

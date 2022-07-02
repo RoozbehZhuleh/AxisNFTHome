@@ -7,14 +7,16 @@
     <title>NFT</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./scripts/darkmode.js" defer></script>
-    <script type="text/javascript" src="./scripts/style.js" defer></script>
     <script src="./scripts/countdown.js" defer></script>
     <link rel="stylesheet" href="home.css">
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
     <link rel="manifest" href="./site.webmanifest">
-    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./scripts/swiper.js" defer></script>
+    <script type="text/javascript" src="./scripts/style.js" defer></script>
     
 </head>
 <body>
@@ -115,10 +117,25 @@
                         <img class="navbar__button--light btn__secondary btn" onclick="toggleTheme()" src="./assets/axies-images/01_header/sun.png" alt="Light Mode">
                     </div>
                 </div>
-                <div class="rp-menu">
-                    <i class="fa-solid fa-bars"></i>
+                <div class="burger-menu">
+                    <!-- <i class="fa-solid fa-bars"></i> -->
+                    <span class="burger-bar-1"></span>
+                    <span class="burger-bar-2"></span>
+                    <span class="burger-bar-3"></span>
                 </div>
             </div>
+        </div>
+
+        <div class="burger__nav">
+            <ul class="burger__links">
+                <li class="burger__home">Home</li>
+                <li class="burger__explore">Explore</li>
+                <li class="burger__activity">Activity</li>
+                <li class="burger__community">Community</li>
+                <li class="burger__pages">Pages</li>
+                <li class="burger__contact">Contact</li>
+                <li><div class="navbar__search"><i class="fa-solid fa-magnifying-glass"></i></div></li>
+            </ul>
         </div>
     </nav>
     
@@ -201,9 +218,9 @@
                     <button class="btn btn__primary">Explore</button>
                 </div>
             </div>
-
-            <div class="auctions__items">
-                <div class="auctions__item--1 auctions__item">
+        <div class="swiper">
+            <div class="auctions__items swiper-wrapper">
+                <div class="auctions__item--1 auctions__item swiper-slide">
                     <div class="item__wrapper--1">
                         <a class="bid">
                             <i class="fa-solid fa-tag"></i> <p>Place Bid</p>
@@ -243,7 +260,7 @@
                     </div>
                 </div> 
 
-                <div class="auctions__item--2 auctions__item">
+                <div class="auctions__item--2 auctions__item swiper-slide">
                     <div class="item__wrapper--2">
                         <a class="bid">
                             <i class="fa-solid fa-tag"></i> <p>Place Bid</p>
@@ -283,7 +300,7 @@
                     </div>
                 </div> 
 
-                <div class="auctions__item--3 auctions__item">
+                <div class="auctions__item--3 auctions__item swiper-slide">
                     <div class="item__wrapper--3">
                         <a class="bid">
                             <i class="fa-solid fa-tag"></i> <p>Place Bid</p>
@@ -323,7 +340,7 @@
                     </div>
                 </div> 
 
-                <div class="auctions__item--4 auctions__item ">
+                <div class="auctions__item--4 auctions__item swiper-slide">
                     <div class="item__wrapper--4">
                         <a class="bid">
                             <i class="fa-solid fa-tag"></i> <p>Place Bid</p>
@@ -363,12 +380,10 @@
                     </div>
                 </div> 
             </div>
-            <div class="slider">
-                <i class="fa-solid fa-circle-dot"></i>
-                <i class="fa-solid fa-circle"></i>
-                <i class="fa-solid fa-circle"></i>
-                <i class="fa-solid fa-circle"></i>
-            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
             
         </div>
     </div>
@@ -388,11 +403,9 @@
 
             <div class="collection__items">
             <div class="collection__item collection__item--1">
-                <div class="first-row">
+                <div class="collection__images">
                     <div class="collection__img--1 collection__img"></div>
                     <div class="collection__img--2 collection__img"></div>
-                </div>
-                <div class="second-row">
                     <div class="collection__img--3 collection__img"></div>
                     <div class="collection__img--4 collection__img"></div>
                     <div class="collection__img--5 collection__img"></div>
@@ -411,11 +424,9 @@
                 </div>
             </div>
             <div class="collection__item collection__item--2">
-                <div class="first-row">
+                <div class="collection__images">
                     <div class="collection__img--6 collection__img"></div>
                     <div class="collection__img--7 collection__img"></div>
-                </div>
-                <div class="second-row">
                     <div class="collection__img--8 collection__img"></div>
                     <div class="collection__img--9 collection__img"></div>
                     <div class="collection__img--10 collection__img"></div>
@@ -434,11 +445,9 @@
                 </div>
             </div>
             <div class="collection__item collection__item--3">
-                <div class="first-row">
+                <div class="collection__images">
                     <div class="collection__img--11 collection__img"></div>
                     <div class="collection__img--12 collection__img"></div>
-                </div>
-                <div class="second-row">
                     <div class="collection__img--13 collection__img"></div>
                     <div class="collection__img--14 collection__img"></div>
                     <div class="collection__img--15 collection__img"></div>

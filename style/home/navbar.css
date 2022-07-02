@@ -2,13 +2,15 @@
   min-height: 5vh;
   position: sticky;
   top: 0rem;
-  z-index: 2;
-  background-image: linear-gradient(
+  z-index: 20;
+  background: var(--dark-color);
+  /* background-image: linear-gradient(
     90deg,
     var(--dark-color) 0%,
     var(--primary-color) 75%
-  );
+  ); */
   border-block-end: 0.1rem solid var(--secondary-background-color);
+  opacity: 1;
 }
 
 .navbar__logo img {
@@ -112,8 +114,8 @@
   border: 1px solid var(--dark-color);
   border-radius: var(--card-radius);
   width: 10%;
-  left: 25%;
-  top: 80%;
+  left: 28%;
+  top: 65%;
 }
 
 
@@ -125,7 +127,7 @@
   border-radius: var(--card-radius);
   width: 10%;
   left: 45%;
-  top: 80%;
+  top: 65%;
 }
 
 
@@ -227,25 +229,87 @@
   width: 10%;
 }
 
-.rp-menu {
+.burger-menu {
   cursor: pointer;
-  padding: 1rem 1.5rem;
+  padding: 1rem;
   background-color: var(--primary-color);
   border-radius: 0.5rem;
   font-size: 3rem;
   display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
 }
 
-.rp-menu i {
-  color: var(--light-color);
+.burger-menu span{
+  width: 2rem;
+  height: 3px;
+  background-color: var(--light-color);
 }
 
-@media (max-width: 60rem) {
-  .rp-menu {
-    display: block;
-  }
 
-  .navbar__menu {
-    display: none;
-  }
+.burger__nav{
+  display: none;
+  background-color: var(--dark-color);
+  font-size: var(--font-ml);
+  color: var(--light-font-color);
+  position: fixed;
+  right: .1px;
+  height: 100%
 }
+
+.burger__links >*{
+  margin: 1rem;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.burger__links>*:hover::before{
+  content: "";
+  position: absolute;
+  right: 2%;;
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: var(--light-color);
+}
+
+.display-block{
+  display: block;
+}
+
+.display-none{
+  display: none;
+}
+
+.active{
+  display: flex;
+}
+
+.rotate{
+  transform: rotate(180deg);
+}
+
+ .rotate90{
+  transform: rotate(90deg);
+ }
+ .rotate45{
+  transform: rotate(45deg);
+ }
+ .rotate-45{
+  transform: rotate(-45deg);
+ }
+
+ .burger-bar-1{
+  transition: all 0.1s ease-in-out;
+}
+.burger-bar-2{
+  transition: all 0.3s ease-in-out;
+}
+
+.burger-bar-3{
+  transition: all 0.6s ease-in-out;
+}
+
+
+

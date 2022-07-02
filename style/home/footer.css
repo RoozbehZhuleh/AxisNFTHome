@@ -108,25 +108,5 @@ footer {
 }
 
 @media (max-width: 90rem) {
-  .social {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--accent-color);
-    padding: 1rem 0.3rem;
-    border-radius: 2.5rem;
-    position: fixed;
-    position: -webkit-fixed;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0.2rem;
-  }
-
-  .social > * {
-    background-color: var(--accent-color);
-  }
-
-  .social > *:hover {
-    background-color: var(--primary-color);
-    border-radius: 100%;
-  }
+  
 }

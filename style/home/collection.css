@@ -1,17 +1,76 @@
+#collection{
+  margin: 10rem 0 0 0;
+}
+
+
 .collection__wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
   /* margin: 15rem 0 12rem 0; */
 }
+
+.collection__images{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 45px);
+  /* justify-content: center; */
+  align-self: center;
+  gap: 5px;
+  width: 100%;
+}
+
+.collection__img--1,
+.collection__img--6,
+.collection__img--11{
+  grid-column: 1/4;
+  grid-row: 1/4;
+  
+}
+
+
+.collection__img--2,
+.collection__img--7,
+.collection__img--12{
+  grid-column: 4/8;
+  grid-row: 1/4;
+}
+
+
+.collection__img--3,
+.collection__img--8,
+.collection__img--13{
+  grid-column: 1/3;
+    grid-row: 4/7;
+}
+
+
+.collection__img--4,
+.collection__img--9,
+.collection__img--14{
+  grid-column: 3/5;
+    grid-row: 4/7;
+}
+
+
+.collection__img--5,
+.collection__img--10,
+.collection__img--15{
+  grid-column: 5/8;
+    grid-row: 4/7;
+}
+
+
 
 .collection__items {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 1rem;
+  width: 100%;
 }
 
 .collection__title h2 {
@@ -35,7 +94,7 @@
   justify-content: center;
   align-items: flex-start;
   background-color: var(--secondary-background-color);
-  /* margin: 0 2rem; */
+  padding: 1rem;
   border-radius: 2rem;
   transition: all 0.2s linear;
 }
@@ -48,10 +107,10 @@
 }
 
 .collection__img--1 {
-  width: 20rem;
-  height: 17rem;
+  /* width: 20rem; */
+  /* height: 17rem; */
   background-image: url(../../assets/axies-images/06_Popular\ Collection/box1/collection-item-2.jpg);
-  margin: 2rem 0rem 0rem 2rem;
+  /* margin: 2rem 0rem 0rem 2rem; */
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: 25rem 40rem;
@@ -61,9 +120,9 @@
 
 .collection__img--2 {
   background-image: url(../../assets/axies-images/06_Popular\ Collection/box2/img-collection24.jpg);
-  width: 20rem;
-  height: 17rem;
-  margin: 2rem 2rem 0rem 1rem;
+  /* width: 20rem; */
+  /* height: 17rem; */
+  /* margin: 2rem 2rem 0rem 1rem; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -71,18 +130,9 @@
   transition: all 0.4s linear;
 }
 
-.second-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
 .collection__img--3 {
-  width: 13rem;
-  height: 13rem;
   background-image: url(../../assets/axies-images/06_Popular\ Collection/box1/collection-item-bottom-4.jpg);
-  margin: 2rem 0rem 1rem 1.5rem;
+  /* margin: 2rem 0rem 1rem 1.5rem; */
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: cover;
@@ -91,10 +141,8 @@
 }
 
 .collection__img--4 {
-  width: 13rem;
-  height: 13rem;
   background-image: url(../../assets/axies-images/06_Popular\ Collection/box1/collection-item-top-1.jpg);
-  margin: 2rem 0rem 1rem 1rem;
+  /* margin: 2rem 0rem 1rem 1rem; */
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: cover;
@@ -103,10 +151,8 @@
 }
 
 .collection__img--5 {
-  width: 13rem;
-  height: 13rem;
   background-image: url(../../assets/axies-images/06_Popular\ Collection/box1/collection-item-top-2.jpg);
-  margin: 2rem 0rem 1rem 1rem;
+  /* margin: 2rem 0rem 1rem 1rem; */
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: cover;
@@ -115,10 +161,8 @@
 }
 
 .collection__img--6 {
-  width: 20rem;
-  height: 17rem;
   background-image: url(../../assets/axies-images/06_Popular\ Collection/box2/img-collection11.jpg);
-  margin: 2rem 0rem 0rem 2rem;
+  /* margin: 2rem 0rem 0rem 2rem; */
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: cover;
@@ -128,9 +172,9 @@
 
 .collection__img--7 {
   background-image: url(../../assets/axies-images/06_Popular\ Collection/box3/img-collection17.jpg);
-  width: 20rem;
-  height: 17rem;
-  margin: 2rem 2rem 0rem 1rem;
+  /* width: 20rem; */
+  /* height: 17rem; */
+  /* margin: 2rem 2rem 0rem 1rem; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -139,10 +183,8 @@
 }
 
 .collection__img--8 {
-  width: 13rem;
-  height: 13rem;
   background-image: url(../../assets/axies-images/06_Popular\ Collection/box2/img-collection10.jpg);
-  margin: 2rem 0rem 1rem 1.5rem;
+  /* margin: 2rem 0rem 1rem 1.5rem; */
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: cover;
@@ -150,10 +192,10 @@
   transition: all 0.3s linear;
 }
 .collection__img--9 {
-  width: 13rem;
-  height: 13rem;
+  /* width: 13rem; */
+  /* height: 13rem; */
   background-image: url(../../assets/axies-images/06_Popular\ Collection/box2/img-collection23.jpg);
-  margin: 2rem 0rem 1rem 1rem;
+  /* margin: 2rem 0rem 1rem 1rem; */
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: cover;
@@ -161,10 +203,10 @@
   transition: all 0.2s ease-out;
 }
 .collection__img--10 {
-  width: 13rem;
-  height: 13rem;
+  /* width: 13rem; */
+  /* height: 13rem; */
   background-image: url(../../assets/axies-images/06_Popular\ Collection/box1/collection-item-top-2.jpg);
-  margin: 2rem 0rem 1rem 1rem;
+  /* margin: 2rem 0rem 1rem 1rem; */
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: cover;
@@ -172,10 +214,8 @@
   transition: all 0.1s linear;
 }
 .collection__img--11 {
-  width: 20rem;
-  height: 17rem;
   background-image: url(../../assets/axies-images/06_Popular\ Collection/box3/img-collection12.jpg);
-  margin: 2rem 0rem 0rem 2rem;
+  /* margin: 2rem 0rem 0rem 2rem; */
   background-repeat: no-repeat;
   background-position: 15% 20%;
   background-size: 25rem 40rem;
@@ -184,9 +224,9 @@
 }
 .collection__img--12 {
   background-image: url(../../assets/axies-images/06_Popular\ Collection/box2/img-collection24.jpg);
-  width: 20rem;
-  height: 17rem;
-  margin: 2rem 2rem 0rem 1rem;
+  /* width: 20rem; */
+  /* height: 17rem; */
+  /* margin: 2rem 2rem 0rem 1rem; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -194,10 +234,10 @@
   transition: all 0.2s ease-in-out;
 }
 .collection__img--13 {
-  width: 13rem;
-  height: 13rem;
+  /* width: 13rem; */
+  /* height: 13rem; */
   background-image: url(../../assets/axies-images/06_Popular\ Collection/box3/img-collection18.jpg);
-  margin: 2rem 0rem 1rem 1.5rem;
+  /* margin: 2rem 0rem 1rem 1.5rem; */
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: cover;
@@ -205,10 +245,10 @@
   transition: all 0.3s linear;
 }
 .collection__img--14 {
-  width: 13rem;
-  height: 13rem;
+  /* width: 13rem; */
+  /* height: 13rem; */
   background-image: url(../../assets/axies-images/06_Popular\ Collection/box1/collection-item-top-1.jpg);
-  margin: 2rem 0rem 1rem 1rem;
+  /* margin: 2rem 0rem 1rem 1rem; */
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: cover;
@@ -216,10 +256,10 @@
   transition: all 0.5s linear;
 }
 .collection__img--15 {
-  width: 13rem;
-  height: 13rem;
+  /* width: 13rem; */
+  /* height: 13rem; */
   background-image: url(../../assets/axies-images/06_Popular\ Collection/box3/img-collection25.jpg);
-  margin: 2rem 0rem 1rem 1rem;
+  /* margin: 2rem 0rem 1rem 1rem; */
   background-repeat: no-repeat;
   background-position: 25% 75%;
   background-size: cover;
