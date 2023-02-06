@@ -311,7 +311,7 @@ a {
   }
   50% {
     /* min-height: 60rem; */
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
   100% {
     /* min-height: 50rem; */
